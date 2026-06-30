@@ -1,2 +1,18 @@
 # Emotion-as-Data-Signal
-Executive microsite presenting the Emotion as a Data Signal concept for future mobility.
+
+
+
+An independent concept exploring whether voluntarily shared human emotions could complement existing mobility data with human context.
+
+
+
+Status: Executive Microsite (Work in Progress)
+
+
+
+Author
+
+
+
+Radim Kos
+
