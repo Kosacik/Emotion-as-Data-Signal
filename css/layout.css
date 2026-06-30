@@ -1,0 +1,1 @@
+.site-header{position:fixed;top:0;width:100%;padding:28px 0;background:rgba(0,0,0,.18);backdrop-filter:blur(12px);color:#fff}.site-header .container{display:flex;justify-content:space-between}.language-switcher{display:flex;gap:18px}.active{color:var(--accent)}footer{padding:64px 0;border-top:1px solid var(--border);color:var(--muted)}
