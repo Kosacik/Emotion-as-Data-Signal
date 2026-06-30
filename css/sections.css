@@ -21,19 +21,27 @@
   -webkit-backdrop-filter: blur(18px);
 
   border-bottom: 1px solid rgba(255,255,255,.04);
+  opacity:0;
+
+  transform:translateY(-18px);
 
   transition:
+      opacity .45s ease,
+      transform .45s ease,
       background .35s ease,
-      backdrop-filter .35s ease,
       border-color .35s ease;
 
 }
 
 .site-header.is-scrolled{
 
-  background:rgba(19,26,36,.92);
+    opacity:1;
 
-  border-bottom:1px solid rgba(255,255,255,.07);
+    transform:translateY(0);
+
+    background:rgba(19,26,36,.92);
+
+    border-bottom:1px solid rgba(255,255,255,.06);
 
 }
 
@@ -215,27 +223,37 @@
 
 }
 
+
 .hero__scroll{
 
-  display:inline-flex;
+    position:absolute;
 
-  flex-direction:column;
+    left:50%;
 
-  align-items:center;
+    bottom:56px;
 
-  gap:.35rem;
+    transform:translateX(-50%);
 
-  margin-top:5rem;
+    display:flex;
 
-  text-decoration:none;
+    flex-direction:column;
 
-  color:var(--color-accent);
+    align-items:center;
 
-  opacity:.65;
+    gap:.35rem;
 
-  transition:opacity var(--duration-fast) ease;
+    text-decoration:none;
+
+    color:var(--color-accent);
+
+    opacity:.70;
+
+    transition:opacity .25s ease;
+
+    z-index:5;
 
 }
+
 
 .hero__scroll:hover{
 
