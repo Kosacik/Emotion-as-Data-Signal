@@ -1,1 +1,97 @@
-:root{--white:#fff;--section:#f6f7f8;--text:#1b1b1b;--muted:#666;--border:#d8d8d8;--accent:#4ba82e;--max-width:1280px;}
+/* ==========================================================
+   Emotion as a Data Signal
+   Design System v1.0
+   ----------------------------------------------------------
+   Color philosophy
+
+   Midnight Indigo  = Trust • Technology • Depth
+   Warm Amber       = Human • Emotion • Light
+
+========================================================== */
+
+:root {
+
+  /* ======================================================
+     Colors
+  ====================================================== */
+
+  /* Backgrounds */
+
+  --color-bg-dark: #131A24;          /* Midnight Indigo */
+  --color-bg-dark-alt: #10151D;
+  --color-bg-light: #F6F7F8;
+  --color-surface: #FFFFFF;
+
+  /* Typography */
+
+  --color-text: #1B1B1B;
+  --color-text-muted: #666666;
+  --color-text-light: rgba(255,255,255,.92);
+
+  /* Borders */
+
+  --color-border: #D8D8D8;
+  --color-border-light: rgba(255,255,255,.08);
+
+  /* Accent */
+
+  --color-accent: #D5A347;           /* Warm Amber */
+  --color-accent-hover: #E0B35A;
+
+  /* ======================================================
+     Hero
+  ====================================================== */
+
+  --hero-gradient:
+      radial-gradient(
+          circle at 50% 12%,
+          #1B2740 0%,
+          #131A24 58%,
+          #10151D 100%);
+
+  /* ======================================================
+     Layout
+  ====================================================== */
+
+  --container: 1280px;
+  --content: 780px;
+  --content-wide: 920px;
+
+  /* ======================================================
+     Spacing
+  ====================================================== */
+
+  --space-xs: .5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 4rem;
+  --space-xl: 6rem;
+  --space-2xl: 8rem;
+  --space-3xl: 10rem;
+
+  /* ======================================================
+     Radius
+  ====================================================== */
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+
+  /* ======================================================
+     Header
+  ====================================================== */
+
+  --header-height: 76px;
+
+  /* ======================================================
+     Animation
+  ====================================================== */
+
+  --duration-fast: .25s;
+  --duration-normal: .45s;
+  --duration-slow: .8s;
+
+  --ease:
+      cubic-bezier(.22,.61,.36,1);
+
+}
