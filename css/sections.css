@@ -2,24 +2,42 @@
    Header
 ========================================================== */
 
+
 .site-header {
+
   position: fixed;
   inset: 0 0 auto 0;
+
   height: var(--header-height);
+
   z-index: 1000;
 
   display: flex;
   align-items: center;
 
-  background: rgba(19, 26, 36, .18);
+  background: rgba(19,26,36,.14);
 
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
 
-  border-bottom: 1px solid rgba(255,255,255,.05);
+  border-bottom: 1px solid rgba(255,255,255,.04);
 
-  transition: all var(--duration-normal) var(--ease);
+  transition:
+      background .35s ease,
+      backdrop-filter .35s ease,
+      border-color .35s ease;
+
 }
+
+.site-header.is-scrolled{
+
+  background:rgba(19,26,36,.92);
+
+  border-bottom:1px solid rgba(255,255,255,.07);
+
+}
+
+
 
 .site-header .container{
   display:flex;
@@ -31,15 +49,16 @@
 .site-header__brand{
   color:rgba(255,255,255,.92);
   text-decoration:none;
-
+  opacity:.92;
   font-size:.95rem;
-  font-weight:500;
+  font-weight:400;
   letter-spacing:.02em;
 }
 
 .site-header__languages{
   display:flex;
-  gap:1.5rem;
+  gap:1.2rem;
+  font-weight:400;
 }
 
 .site-header__languages a{
@@ -58,12 +77,17 @@
 .site-header__languages a:hover{
 
   color:#fff;
+  opacity:1;
 
 }
 
 .site-header__languages .is-active{
 
-  color:var(--color-accent);
+    color:var(--color-accent);
+
+    font-weight:500;
+
+}
 
 }
 
@@ -137,6 +161,7 @@
   padding-inline:2rem;
 
   color:var(--color-text-light);
+  padding-top:40px;
 
 }
 
@@ -219,6 +244,9 @@
 .hero__scroll-icon{
 
   font-size:1.3rem;
+  animation:
+
+  bounce 2.8s infinite;
 
 }
 
@@ -229,5 +257,27 @@
   letter-spacing:.12em;
 
   text-transform:uppercase;
+
+}
+
+@keyframes bounce{
+
+    0%,20%,50%,80%,100%{
+
+        transform:translateY(0);
+
+    }
+
+    40%{
+
+        transform:translateY(6px);
+
+    }
+
+    60%{
+
+        transform:translateY(3px);
+
+    }
 
 }
