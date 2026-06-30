@@ -108,7 +108,11 @@
 
   overflow:hidden;
 
-  background:var(--hero-gradient);
+  background-color: var(--color-bg-dark);
+  background-image: var(--hero-gradient);
+}
+
+
 
 }
 
