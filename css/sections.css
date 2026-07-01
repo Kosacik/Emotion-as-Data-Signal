@@ -407,3 +407,9 @@
     line-height:1.8;
 
 }
+
+.accent{
+
+    color:var(--color-accent);
+
+}
