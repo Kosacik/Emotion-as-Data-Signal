@@ -69,18 +69,25 @@
   font-weight:400;
 }
 
+
 .site-header__languages a{
 
-  text-decoration:none;
+    color:rgba(255,255,255,.92);
 
-  color:rgba(255,255,255,.65);
+    opacity:.55;
 
-  font-size:.82rem;
+    text-decoration:none;
 
-  letter-spacing:.08em;
+    font-size:.82rem;
 
-  transition:.25s;
+    letter-spacing:.08em;
+
+    transition:
+        opacity .25s ease,
+        color .25s ease;
+
 }
+
 
 .site-header__languages a:hover{
 
@@ -93,7 +100,10 @@
 
     color:var(--color-accent);
 
+    opacity:1;
+
     font-weight:500;
+
 
 }
 
