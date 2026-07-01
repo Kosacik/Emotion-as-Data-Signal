@@ -15,7 +15,7 @@
   display: flex;
   align-items: center;
 
-  background: rgba(19,26,36,.14);
+  background: rgba(19,26,36,.34);
 
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
