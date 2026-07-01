@@ -192,13 +192,14 @@
 
 .hero__subtitle{
 
-  margin-top:1.5rem;
-
-  font-size:clamp(1.7rem,2vw,2.2rem);
-
   font-weight:500;
 
   color:var(--color-accent);
+
+  margin-top:2.25rem;
+  font-size:clamp(1.9rem,2vw,2.35rem);
+  font-weight:400;
+
 
 }
 
