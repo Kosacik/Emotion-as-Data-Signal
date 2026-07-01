@@ -218,11 +218,18 @@
 
 .hero__question{
 
-  margin-top:2rem;
+  margin-top:3rem;
 
-  font-size:1.45rem;
+  font-size:1.6rem;
 
   color:#fff;
+
+  font-weight:500;
+
+
+
+
+
 
 }
 
