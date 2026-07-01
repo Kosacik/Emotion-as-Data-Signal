@@ -66,3 +66,37 @@ Used only to highlight human context.
 
 Never use more than one accent color.
 
+
+
+When a diagram explains the idea, the text should ask the question—not repeat the explanation.
+
+
+
+Každý diagram má maximálně jednu animaci.
+
+Diagram 1 (Missing Context) → nakreslí se hlavní osa.
+
+Diagram 2 (Emotion as a Data Signal) → objeví se středový kruh.
+
+Diagram 3 (Where could this create value?) → postupně se rozsvítí jednotlivé oblasti.
+
+
+
+Section labels always use the same visual language.
+
+
+
+Například:
+
+
+
+0.9rem
+
+Amber
+
+uppercase
+
+letter-spacing 0.10em
+
+font-weight 500
+

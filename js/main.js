@@ -13,3 +13,29 @@ window.addEventListener("scroll", () => {
     }
 
 });
+
+const diagrams = document.querySelectorAll(".diagram");
+
+const observer = new IntersectionObserver((entries) => {
+
+    entries.forEach(entry => {
+
+        if(entry.isIntersecting){
+
+            entry.target.classList.add("is-visible");
+
+            observer.unobserve(entry.target);
+
+        }
+
+    });
+
+},{
+
+    threshold:.35
+
+});
+
+diagrams.forEach(diagram => observer.observe(diagram));
+
+

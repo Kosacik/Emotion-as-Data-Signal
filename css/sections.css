@@ -413,3 +413,390 @@
     color:var(--color-accent);
 
 }
+
+
+/* ==========================================================
+   Missing context
+========================================================== */
+
+
+.missing-context{
+
+    padding:10rem 0;
+
+    background:#fff;
+
+}
+
+.section-label{
+
+    margin:0;
+
+    color:var(--color-accent);
+
+    text-transform:uppercase;
+
+    letter-spacing:.14em;
+
+    font-size:.9rem;
+
+    text-align:center;
+
+}
+
+.missing-context h2{
+
+    margin:1.5rem auto 0;
+
+    max-width:900px;
+
+    text-align:center;
+
+    font-size:clamp(3.4rem,6vw,5rem);
+
+    line-height:1.02;
+
+    letter-spacing:-.045em;
+
+}
+
+.section-intro{
+
+    margin:2rem auto 0;
+
+    max-width:640px;
+
+    text-align:center;
+
+    font-size:1.35rem;
+
+    line-height:1.7;
+
+    color:var(--color-text-muted);
+
+}
+
+.diagram-wrapper{
+
+    margin:4rem auto 0;
+
+    max-width:1400px;
+
+    padding-inline:1rem;
+
+}
+
+.diagram{
+
+    display:block;
+
+    width:100%;
+
+    height:auto;
+
+    opacity:0;
+
+    transform:translateY(24px);
+
+    transition:
+        opacity .8s ease,
+        transform .8s ease;
+
+}
+
+.diagram.is-visible{
+
+    opacity:1;
+
+    transform:none;
+
+}
+
+
+.section-outro{
+
+    margin:0 auto;
+
+    max-width:620px;
+
+    text-align:center;
+
+    font-size:1.4rem;
+
+    line-height:1.6;
+
+    font-weight:500;
+
+}
+
+/* ==========================================================
+   The concept
+========================================================== */
+
+
+.concept{
+
+    padding:10rem 0;
+
+    background:var(--color-bg-light);
+
+}
+
+.concept h2{
+
+    margin:1.5rem auto 0;
+
+    max-width:760px;
+
+    text-align:center;
+
+    font-size:clamp(3rem,5vw,4.4rem);
+
+    line-height:1.02;
+
+    letter-spacing:-.04em;
+
+}
+
+.concept-intro{
+
+    margin:2rem auto 0;
+
+    max-width:620px;
+
+    text-align:center;
+
+    font-size:1.35rem;
+
+    line-height:1.7;
+
+    color:var(--color-text-muted);
+
+}
+
+.concept-diagram{
+
+    margin:1rem auto;
+
+    max-width:1400px;
+
+}
+
+.concept-outro{
+
+    margin:0 auto;
+
+    max-width:620px;
+
+    text-align:center;
+
+    font-size:1.45rem;
+
+    font-weight:500;
+
+}
+
+
+/* ==========================================================
+   A Different Approach
+========================================================== */
+
+.approach{
+
+    padding:10rem 0;
+
+    background:#ffffff;
+
+}
+
+.approach h2{
+
+    margin:1.5rem auto 5rem;
+
+    max-width:760px;
+
+    text-align:center;
+
+    font-size:clamp(3rem,5vw,4.4rem);
+
+    line-height:1.05;
+
+    letter-spacing:-.04em;
+
+}
+
+.approach-principles{
+
+    max-width:860px;
+
+    margin:0 auto;
+
+}
+
+.principle{
+
+    padding:2.8rem 0;
+
+    border-top:1px solid var(--color-border);
+
+}
+
+.principle:last-child{
+
+    border-bottom:1px solid var(--color-border);
+
+}
+
+.principle h3{
+
+    margin:0;
+
+    font-size:2rem;
+
+    font-weight:600;
+
+    color:var(--color-text);
+
+}
+
+.principle p{
+
+    margin-top:.9rem;
+
+    max-width:560px;
+
+    font-size:1.2rem;
+
+    line-height:1.7;
+
+    color:var(--color-text-muted);
+
+}
+
+
+/* ==========================================================
+   Where could this create value?
+========================================================== */
+
+.value{
+
+    padding:10rem 0;
+
+    background:var(--color-bg-light);
+
+}
+
+.value h2{
+
+    margin:1.5rem auto 2rem;
+
+    max-width:760px;
+
+    text-align:center;
+
+    font-size:clamp(3rem,5vw,4.4rem);
+
+    line-height:1.05;
+
+    letter-spacing:-.04em;
+
+}
+
+.value-diagram{
+
+    margin:2rem auto 0;
+
+    max-width:1400px;
+
+}
+
+
+/* ==========================================================
+   Epilogue
+========================================================== */
+
+.epilogue{
+
+    min-height:100vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    background:#fff;
+
+}
+
+.epilogue-title{
+
+    margin:0;
+
+    text-align:center;
+
+    color:var(--color-accent);
+
+    font-size:1.15rem;
+
+    font-weight:500;
+
+    letter-spacing:.08em;
+
+}
+
+.epilogue h2{
+
+    margin:2rem auto 0;
+
+    max-width:760px;
+
+    text-align:center;
+
+    font-size:clamp(3.2rem,5vw,4.8rem);
+
+    line-height:1.08;
+
+    letter-spacing:-.045em;
+
+    font-weight:400;
+
+}
+
+.epilogue-footer{
+
+    margin-top:auto;
+
+    padding:5rem 0 3rem;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:2rem;
+
+}
+
+.epilogue-author{
+
+    font-size:.9rem;
+
+    line-height:1.8;
+
+    text-align:center;
+
+    color:var(--color-text-muted);
+
+}
+
+.kos-logo{
+
+    width:82px;
+
+    height:auto;
+
+    opacity:1;
+
+}
