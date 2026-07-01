@@ -179,13 +179,14 @@
 
   margin:0;
 
-  font-size:clamp(3.6rem,7vw,6rem);
-
   font-weight:700;
 
-  line-height:.98;
+  font-size: clamp(4rem,7vw,6.4rem);
+  line-height:.92;
+  letter-spacing:-.05em;
 
-  letter-spacing:-.04em;
+
+
 
 }
 
