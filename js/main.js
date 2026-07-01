@@ -2,7 +2,7 @@ const header = document.querySelector(".site-header");
 
 window.addEventListener("scroll", () => {
 
-    if(window.scrollY > 140){
+    if(window.scrollY > 127){
 
         header.classList.add("is-scrolled");
 
