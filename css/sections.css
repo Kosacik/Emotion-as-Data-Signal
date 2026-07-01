@@ -74,7 +74,7 @@
 
     color:rgba(255,255,255,.92);
 
-    opacity:.95;
+    opacity:.55;
 
     text-decoration:none;
 
@@ -271,7 +271,7 @@
 
     color:var(--color-accent);
 
-    opacity:.70;
+    opacity:.99;
 
     transition:opacity .25s ease;
 
