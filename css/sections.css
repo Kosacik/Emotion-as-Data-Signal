@@ -271,7 +271,7 @@
 
     color:var(--color-accent);
 
-    opacity:.99;
+    opacity:1;
 
     transition:opacity .25s ease;
 
