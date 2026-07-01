@@ -15,7 +15,7 @@
   display: flex;
   align-items: center;
 
-  background: rgba(19,26,36,.334);
+  background: rgba(19,26,36,.17);
 
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
@@ -65,7 +65,7 @@
 
 .site-header__languages{
   display:flex;
-  gap:1.2rem;
+  gap:1rem;
   font-weight:400;
 }
 
